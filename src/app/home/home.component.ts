@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
-import { HousinglocationComponent } from '../housinglocation/housinglocation.component';
+
 import { ProductComponent } from '../product/product.component';
 import { IProduct } from '../elements';
 import { ProductService } from '../products.Service';
@@ -9,7 +9,7 @@ import { ProductService } from '../products.Service';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HousinglocationComponent, ProductComponent], 
+  imports: [CommonModule, ProductComponent], 
   template: `
     <section>
       <form>
