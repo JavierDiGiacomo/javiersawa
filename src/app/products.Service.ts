@@ -28,4 +28,11 @@ export class ProductService {
     const data = await fetch(`${this.urlProducts}/${id}`);
     return (await data.json()) ?? {};
   }
+
+  // Metodo para el submit del boton de la compra
+  async submitApplication(firstName: string, lastName: string, email: string) {
+    //alert(JSON.stringify({ firstName, lastName, email }));
+
+    alert('Se realizo la compra exitosamente, datos :\nNombre : ' + firstName + ',\nApellido : ' + lastName + ',\nEmail : ' + email + '\n\nGracias por solicitarnos.' ) ;
+  }
 }

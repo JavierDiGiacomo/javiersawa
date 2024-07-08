@@ -35,3 +35,20 @@ section.listing a::after{
     content: "\203A";
     margin-left: 5px;
 }
+
+.listing-apply .section-heading {
+    font-size: 18pt;
+    margin-bottom: 15px;
+  }
+
+  button {
+ 
+    width: 100px;
+    height: 40px;
+    border: solid 1px var(--primary-color);
+    background-color: rgb(128, 173, 128);
+    color: black;
+    font-size: medium;
+    border-radius: 8px;
+    border-style: solid;
+  }

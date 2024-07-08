@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   template: `
-    <section class="listing" [routerLink]="['/details/', product.id]">
+    <section class="listing" [routerLink]="['/details/', product.id]" style="cursor: pointer;">
       <img 
        class="listing-photo"
         [src]="product.thumbnail" 

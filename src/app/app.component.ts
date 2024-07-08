@@ -12,6 +12,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
         src="/assets/home.JPG"
         alt="logo"
         routerLink="/"
+        style="cursor: pointer;"
         />
       </header>
       <div class="content">
